@@ -1,6 +1,10 @@
 # Multimodal-Fusion-RAG
 ## Evaluating a Multimodal Fusion RAG Pipeline with Structured Prompting and Image Intelligence
 
+- The whole article can be found at
+
+https://medium.com/@sourish.syntel/multimodal-fusion-rag-evaluating-a-multimodal-fusion-rag-pipeline-with-structured-prompting-and-a541ef922c12
+
 ## Implementation and Evaluation of a Multimodal Fusion RAG
 
 __Fusion RAG__ : Combining Multimodal Vector-store and Keyword Search for more accurate retrieval.
