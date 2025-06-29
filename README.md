@@ -26,7 +26,7 @@ _See the readme file in the main branch for updated instructions and information
 Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree by 
 
 ```bash
-git clone https://github.com/nitsourish/Advanced-RAG.git
+git clone https://github.com/nitsourish/Advanced-RAG-Pipelines.git
 ```
 
 ```bash
