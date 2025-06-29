@@ -1,53 +1,52 @@
 [
     {
-      "question": "What is a primary challenge that LLMs face which RAG is designed to solve?",
-      "answer": "Hallucination—producing content not grounded in factual sources—is a key challenge RAG addresses by grounding generation in retrieved external knowledge​",
-      "type": "factual"
+        "question": "What is the main challenge faced by Large Language Models (LLMs)?",
+        "answer": "LLMs face challenges like hallucination, outdated knowledge, and non-transparent, untraceable reasoning processes.",
+        "type": "factual"
     },
     {
-      "question": "What are the three main paradigms of RAG introduced in the document?",
-      "answer": "Naive RAG, Advanced RAG, and Modular RAG​",
-      "type": "factual"
+        "question": "What is the purpose of Retrieval-Augmented Generation (RAG)?",
+        "answer": "RAG enhances LLMs by retrieving relevant document chunks from external knowledge bases through semantic similarity calculation.",
+        "type": "factual"
     },
     {
-      "question": "What are the core components of a RAG system as defined in this paper?",
-      "answer": "Retrieval, Generation, and Augmentation​",
-      "type": "factual"
+        "question": "How does RAG improve the accuracy and credibility of LLM generation?",
+        "answer": "RAG integrates knowledge from external databases, improving the accuracy and credibility of LLM generation, particularly for knowledge-intensive tasks.",
+        "type": "factual"
     },
     {
-      "question": "Why might Modular RAG offer a significant advantage over Naive or Advanced RAG in real-world applications?",
-      "answer": "Modular RAG provides flexibility by allowing modules to be rearranged or replaced, enabling better adaptation to diverse tasks, reducing redundancy, and supporting more dynamic interaction flows",
-      "type": "analytical"
+        "question": "What is the significance of the \"Naive RAG\" and \"Advanced RAG\" paradigms?",
+        "answer": "The Naive RAG and Advanced RAG are two stages of development in RAG, representing a progression of techniques and approaches.",
+        "type": "factual"
     },
     {
-      "question": "How does RAG compare to fine-tuning in terms of updating knowledge within an LLM?",
-      "answer": "RAG allows real-time knowledge updates through external retrieval, while fine-tuning embeds new knowledge into model parameters but is resource-intensive and static",
-      "type": "analytical"
+        "question": "What is the role of the \"Modular RAG\" framework?",
+        "answer": "The Modular RAG framework allows for the integration of different components, such as retrieval, generation, and augmentation, to create a more robust RAG system.",
+        "type": "factual"
     },
     {
-      "question": "What makes query optimization critical in RAG systems, especially in the context of retrieval quality?",
-      "answer": "Poorly formed or ambiguous queries can lead to irrelevant retrievals. Techniques like query rewriting, expansion, and routing improve the semantic alignment between queries and documents, enhancing retrieval accuracy and relevance",
-      "type": "analytical"
+        "question": "Why is the integration of external knowledge into LLMs crucial for addressing the limitations of LLMs?",
+        "answer": "Integrating external knowledge helps LLMs overcome limitations like hallucination, outdated knowledge, and non-transparent reasoning by providing accurate and up-to-date information.",
+        "type": "analytical"
     },
     {
-      "question": "Based on RAG Technology Tree, how has RAG research evolved over time?",
-      "answer": "Poorly formed or ambiguous queries can lead to irrelevant retrievals. Techniques like query rewriting, expansion, and routing improve the semantic alignment between queries and documents, enhancing retrieval accuracy and relevance",
-      "type": "image-based"
+        "question": "Why might Modular RAG offer a significant advantage over Naive or Advanced RAG in real-world applications?",
+        "answer": "The document states that RAG research has expanded beyond the inference stage to incorporate LLM fine-tuning techniques, indicating a broader scope of application.",
+        "type": "analytical"
     },
     {
-      "question": "what are the three key steps shown in the RAG process applied to question answering?",
-      "answer": "1) Indexing of documents into vector databases, 2) Retrieval of top-k relevant chunks, and 3) Generation of answers using LLMs with retrieved context",
-      "type": "image-based"
+        "question": "How does the encoding help to solve the lack of order of the input sequence?",
+        "answer": "This is done by adding positional encodings to the input embeddings at the bottoms of the encoder and decoder stacks. The positional encodings in the Transformer model is to inject information about the relative or absolute position of the tokens in the sequence. The positional encodings have the same dimensionality as the embeddings, so they can be summed together. By using sine and cosine functions of different frequencies, the positional encodings form a geometric progression from 2π to 10000 · 2π. This allows the model to easily learn to attend by relative positions, since for any fixed offset k, PEpos+k can be represented as a linear function of PEpos",
+        "type": "analytical"
     },
     {
-      "question": "how does the structure of Modular RAG differ from Naive RAG?",
-      "answer": "While Naive RAG follows a linear indexing-retrieval-generation flow, Modular RAG introduces customizable modules, iterative retrieval loops, and adaptive logic for complex scenarios",
-      "type": "image-based"
+        "question": "Why is the development of RAG considered a significant advancement in LLM research?",
+        "answer": "RAG is a significant advancement because it addresses the limitations of LLMs by providing them with access to external knowledge, enhancing their accuracy, credibility, and ability to handle complex tasks.",
+        "type": "analytical"
     },
     {
-      "question": "Describe the workflow from user query to generation of response.",
-      "answer": "The typical RAG workflow for generating structured output from a user query involves the following steps:\n\nIndexing:\nDocuments (e.g., workflow steps and tables) are pre-processed, chunked, embedded using an encoder, and stored in a vector database.\n\nRetrieval:\nWhen a user submits a query, it is embedded into a vector. The retriever searches the vector database to fetch the top-K relevant chunks (e.g., step names, table names) based on similarity.\n\nAugmented Prompt Creation:\nRetrieved information (suggested steps and tables) is appended to the user query to create a comprehensive prompt.\n\nGeneration:\nThe combined prompt is passed to the LLM, which uses greedy decoding to generate a structured response (e.g., a JSON workflow) that incorporates the retrieved context.",
-      "type": "image-based"
+        "question": "How does the document suggest that RAG research is still evolving?",
+        "answer": "The document highlights the challenges faced by RAG research, such as the need for better evaluation frameworks and benchmarks, indicating that the field is still evolving and undergoing continuous development.",
+        "type": "analytical"
     }
-  ]
-  
+]
