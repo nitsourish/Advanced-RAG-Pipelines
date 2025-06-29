@@ -1,5 +1,5 @@
-# Multimodal-Fusion-RAG
-## Evaluating a Multimodal Fusion RAG Pipeline with Structured Prompting and Image Intelligence
+# Advanced-RAG - This repository is consist of exploratory Notebooks of 2 cutting edge RAG pipelines.
+## A) Evaluating a Multimodal Fusion RAG Pipeline with Structured Prompting and Image Intelligence
 
 - The whole article can be found at
 
@@ -15,11 +15,18 @@ BM25 is a traditional bag-of-words algorithm used for text matching. It ranks do
 
 _See the readme file in the main branch for updated instructions and information._
 
+## B) Evaluating a Graph based Hybrid RAG Pipeline with Structured Prompting
+
+### Hybrid retrieval strategy on a corpus of RAG white papers and articles, combining:
+
+- Semantic Vector Search
+- Graph-Based Knowledge Traversal -enhances traditional RAG systems by organizing knowledge/concepts as a connected graph rather than a flat collection of documents
+
 ## Installing
 Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree by 
 
 ```bash
-git clone https://github.com/nitsourish/Multimodal-Fusion-RAG.git
+git clone https://github.com/nitsourish/Advanced-RAG.git
 ```
 
 ```bash
